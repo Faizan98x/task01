@@ -19,7 +19,7 @@ export default function Home() {
           <MenuIcon />
         </div>
         <div className={styles.title}>
-          <h3 className={styles.titleName}>Accounts</h3>
+          <h4 className={styles.titleName}>Accounts</h4>
         </div>
         <div className={styles.add}>
           <AddIcon />
@@ -27,19 +27,19 @@ export default function Home() {
       </header>
 
       <main className={styles.main}>
-        <div className={styles.box1}>
+        <div className={styles.box}>
           <AccountBalanceWalletIcon className={styles.icon} />
           <p className={styles.iconHeading}>MyAccounts</p>
         </div>
-        <div className={styles.box2}>
+        <div className={styles.box}>
           <SavingsIcon className={styles.icon} />
           <p className={styles.iconHeading}>MySavings</p>
         </div>
-        <div className={styles.box3}>
+        <div className={styles.box}>
           <AdjustIcon className={styles.icon} />
           <p className={styles.iconHeading}>MyGoals</p>
         </div>
-        <div className={styles.box4}>
+        <div className={styles.box}>
           <PaidIcon className={styles.icon} />
           <p className={styles.iconHeading}>MyDebts</p>
         </div>
@@ -47,8 +47,8 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <ShowChartOutlinedIcon />
-        <FolderCopyOutlinedIcon className={styles.icon2} />
-        <AddIcon className={styles.plusbtn} />
+        <FolderCopyOutlinedIcon className={styles.footerIcon} />
+        <AddIcon className={styles.addIcon} />
         <CalculateOutlinedIcon />
         <SignalCellularAltSharpIcon />
       </footer>
