@@ -1,7 +1,7 @@
 .screen {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 90vh;
   background-color: var(--bgColor);
   color: #fff;
 }
