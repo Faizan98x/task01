@@ -28,34 +28,31 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.box}>
-          <AccountBalanceWalletIcon fontSize="large" className={styles.icon} />
+          <AccountBalanceWalletIcon className={styles.icon} />
           <p className={styles.iconHeading}>MyAccounts</p>
         </div>
         <div className={styles.box}>
-          <SavingsIcon fontSize="large" className={styles.icon} />
+          <SavingsIcon className={styles.icon} />
           <p className={styles.iconHeading}>MySavings</p>
         </div>
         <div className={styles.box}>
-          <AdjustIcon fontSize="large" className={styles.icon} />
+          <AdjustIcon className={styles.icon} />
           <p className={styles.iconHeading}>MyGoals</p>
         </div>
         <div className={styles.box}>
-          <PaidIcon fontSize="large" className={styles.icon} />
+          <PaidIcon className={styles.icon} />
           <p className={styles.iconHeading}>MyDebts</p>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <ShowChartOutlinedIcon fontSize="medium" />
-        <FolderCopyOutlinedIcon
-          fontSize="medium"
-          className={styles.footerIcon}
-        />
+        <ShowChartOutlinedIcon />
+        <FolderCopyOutlinedIcon className={styles.footerIcon} />
         <button className={styles.addIcon}>
-          <AddIcon fontSize="large" />
+          <AddIcon />
         </button>
-        <CalculateOutlinedIcon fontSize="medium" />
-        <SignalCellularAltSharpIcon fontSize="medium" />
+        <CalculateOutlinedIcon />
+        <SignalCellularAltSharpIcon />
       </footer>
     </section>
   );
