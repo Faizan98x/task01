@@ -28,29 +28,34 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.box}>
-          <AccountBalanceWalletIcon className={styles.icon} />
+          <AccountBalanceWalletIcon fontSize="large" className={styles.icon} />
           <p className={styles.iconHeading}>MyAccounts</p>
         </div>
         <div className={styles.box}>
-          <SavingsIcon className={styles.icon} />
+          <SavingsIcon fontSize="large" className={styles.icon} />
           <p className={styles.iconHeading}>MySavings</p>
         </div>
         <div className={styles.box}>
-          <AdjustIcon className={styles.icon} />
+          <AdjustIcon fontSize="large" className={styles.icon} />
           <p className={styles.iconHeading}>MyGoals</p>
         </div>
         <div className={styles.box}>
-          <PaidIcon className={styles.icon} />
+          <PaidIcon fontSize="large" className={styles.icon} />
           <p className={styles.iconHeading}>MyDebts</p>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <ShowChartOutlinedIcon />
-        <FolderCopyOutlinedIcon className={styles.footerIcon} />
-        <AddIcon className={styles.addIcon} />
-        <CalculateOutlinedIcon />
-        <SignalCellularAltSharpIcon />
+        <ShowChartOutlinedIcon fontSize="medium" />
+        <FolderCopyOutlinedIcon
+          fontSize="medium"
+          className={styles.footerIcon}
+        />
+        <button className={styles.addIcon}>
+          <AddIcon fontSize="large" />
+        </button>
+        <CalculateOutlinedIcon fontSize="medium" />
+        <SignalCellularAltSharpIcon fontSize="medium" />
       </footer>
     </section>
   );

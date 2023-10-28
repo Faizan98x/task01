@@ -48,7 +48,6 @@
 
 .icon {
   color: var(--iconsActiveColor);
-  font-size: 2.5rem;
 }
 
 .iconHeading {
@@ -57,31 +56,32 @@
 }
 
 .footer {
-  margin-top: auto;
-  color: var(--footerIconsColor);
-  padding: 1rem;
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
-}
-
-.addIcon {
-  position: absolute;
-  font-size: 2rem;
-  top: -0.625rem;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
-  color: var(--bgColor);
-  padding: 0.5rem;
-  height: 3rem;
-  width: 3rem;
-  display: grid;
-  place-items: center;
-  border-radius: 50%;
+  margin-top: auto;
+  padding: 1rem;
+  color: var(--footerIconsColor);
 }
 
 .footerIcon{
   color: var(--iconsActiveColor);
+}
+
+.addIcon {
+  position: absolute;
+  top: -0.625rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-content: center;
+  height: 3rem;
+  width: 3rem;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: #fff;
+  color: var(--bgColor);
+  padding: 0.5rem;
 }
