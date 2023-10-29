@@ -1,10 +1,10 @@
-:root{
-  --cardsColor: #26262D;
-  --bgColor: #1C1C1E;
-  --textColor: #A5A3AC;
-  --iconsActiveColor: #FFCD02;
-  --headerIconsColor: #EAEAEA;
-  --footerIconsColor: #B5B3BC;
+:root {
+  --cardsColor: #26262d;
+  --bgColor: #1c1c1e;
+  --textColor: #a5a3ac;
+  --iconsActiveColor: #ffcd02;
+  --headerIconsColor: #eaeaea;
+  --footerIconsColor: #b5b3bc;
 }
 * {
   box-sizing: border-box;
@@ -14,13 +14,16 @@
 
 html,
 body {
-  max-width: 100vw;
   overflow-x: hidden;
+  max-width: 100vw;
 }
 
-body{
-  display: grid;
-  place-items: center;
+body {
+  background-color: var(--bgColor);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
