@@ -15,34 +15,34 @@ export default function Home() {
   return (
     <section className={styles.screen}>
       <header className={styles.header}>
-        <div className={styles.bars}>
+        <section className={styles.bars}>
           <MenuIcon />
-        </div>
-        <div className={styles.title}>
+        </section>
+        <section className={styles.title}>
           <h4 className={styles.titleName}>Accounts</h4>
-        </div>
-        <div className={styles.add}>
+        </section>
+        <section className={styles.add}>
           <AddIcon />
-        </div>
+        </section>
       </header>
 
       <main className={styles.main}>
-        <div className={styles.box}>
+        <section className={styles.box}>
           <AccountBalanceWalletIcon className={styles.icon} />
           <p className={styles.iconHeading}>MyAccounts</p>
-        </div>
-        <div className={styles.box}>
+        </section>
+        <section className={styles.box}>
           <SavingsIcon className={styles.icon} />
           <p className={styles.iconHeading}>MySavings</p>
-        </div>
-        <div className={styles.box}>
+        </section>
+        <section className={styles.box}>
           <AdjustIcon className={styles.icon} />
           <p className={styles.iconHeading}>MyGoals</p>
-        </div>
-        <div className={styles.box}>
+        </section>
+        <section className={styles.box}>
           <PaidIcon className={styles.icon} />
           <p className={styles.iconHeading}>MyDebts</p>
-        </div>
+        </section>
       </main>
 
       <footer className={styles.footer}>
